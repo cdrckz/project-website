@@ -1,4 +1,8 @@
 @media (max-width: 768px) {
+    .nav{
+        justify-content: space-between;
+    }
+    
     .nav-links {
         display: none;
         flex-direction: column;
