@@ -9,7 +9,7 @@ body {
     box-sizing: border-box;
   }
 
-  /* Navigation Bar */
+  /* navigation bar */
 header {
     position: fixed;
     top: 0;
@@ -63,3 +63,23 @@ header {
     font-size: 1.2em;
     margin-top: 10px;
   }
+
+   /* about */
+  .section{
+    padding: 50px 20px;
+    text-align: center;
+  }
+
+  .section h2{
+    font-size: 2em;
+    margin-bottom: 20px;
+    color:#333;
+  }
+
+  .section p{
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  
