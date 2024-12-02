@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+    .nav-links {
+      flex-direction: column;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .parallax h1 {
+        font-size: 2.5em;
+    }
+
+    .parallax p {
+        font-size: 1em;
+    }
+}
