@@ -139,6 +139,11 @@ header {
   padding-top: 10px;
   font-family: 'Georgia', serif;
 }
+.content-section h3{
+  font-size: 1.3em;
+  padding-bottom: 10px;
+  font-family: 'Georgia', serif;
+}
 
 .line-below {
   width: 100%;
@@ -153,7 +158,7 @@ header {
   position: absolute;
   height: 1px;
  background-color: #fdfdfd;
- top: 70%; 
+ top: 33%; 
   left: 20px;
  right: 20px;
 }
@@ -169,7 +174,7 @@ header {
 }
 
 .center-photo {
-  width: 300px; /* Adjust image size */
+  width: 450px; /* Adjust image size */
   height: auto;
   border: 2px solid #fff;
   border-radius: 5px;
@@ -179,16 +184,19 @@ header {
   flex: 1; /* Makes text containers take equal space */
   font-size: 16px;
   line-height: 1.6;
-  padding: 10px;
+  padding: 20px;
   text-align: justify;
 }
 
 .left-text {
-  text-align: left;
+  text-align: justify;
+  border-right: solid #fff;
+  padding-right: 10px;
 }
 
 .right-text {
-  text-align: right;
+  text-align: justify;
+  border-left: solid #fff;
 }
 
 
@@ -236,6 +244,7 @@ header {
     background-color: #fff;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
   }
 
   .story img {
@@ -271,6 +280,30 @@ header {
   
   .story:hover p {
     opacity: 1;
+  }
+
+  #audio-controls {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  #audio-toggle {
+    background-color: #56514d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #audio-toggle:hover {
+    background-color: #696158;
+  }
+  
+  #story-audio {
+    display: none; 
   }
 
   /* footer */

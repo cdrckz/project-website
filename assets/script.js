@@ -1,19 +1,19 @@
-document.addEventListener('DOMContentLoaded', () => {
-    console.log('Website is loaded and ready!');
-  });
+document.addEventListener("DOMContentLoaded", () => {
+  console.log("Website is loaded and ready!");
+});
 
-  const hamburger = document.querySelector('.hamburger');
-  const navLinks = document.querySelector('.nav-links');
-  
-  hamburger.addEventListener('click', () => {
-    navLinks.classList.toggle('active');
-  });
+const hamburger = document.querySelector(".hamburger");
+const navLinks = document.querySelector(".nav-links");
 
-  //adjusting brightness when scroll
-const parallaxBackground = document.querySelector('.parallax-background');
-const homeSection = document.querySelector('#home');
+hamburger.addEventListener("click", () => {
+  navLinks.classList.toggle("active");
+});
 
-window.addEventListener('scroll', () => {
+//adjusting brightness when scroll
+const parallaxBackground = document.querySelector(".parallax-background");
+const homeSection = document.querySelector("#home");
+
+window.addEventListener("scroll", () => {
   const scrollY = window.scrollY;
 
   // Calculate opacity based on scroll position
@@ -21,4 +21,32 @@ window.addEventListener('scroll', () => {
 
   // Apply filter to the background
   parallaxBackground.style.filter = `brightness(${opacity})`;
+});
+
+
+//sa audio itoo
+const audio = document.getElementById("story-audio");
+const toggleButton = document.getElementById('audio-toggle');
+const stories = document.querySelectorAll(".story");
+stories.forEach(story => {
+  story.addEventListener('mouseover', () => {
+    if (audio.paused) {
+      audio.play();
+    }
+  });
+
+  story.addEventListener('mouseleave', () => {
+    audio.pause();
+  });
+});
+
+// Play/Pause functionality for the button
+toggleButton.addEventListener('click', () => {
+  if (audio.paused) {
+    audio.play();
+    toggleButton.textContent = 'Pause Music';
+  } else {
+    audio.pause();
+    toggleButton.textContent = 'Play Music';
+  }
 });
