@@ -1,0 +1,65 @@
+body {
+    font-family:  Helvetica, sans-serif;
+    line-height: 1.6;
+  }
+
+  body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Navigation Bar */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 10;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    list-style: none;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #f39c12;
+  }
+
+    /* parallax */
+
+  .parallax {
+    background: url('jeep.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    text-align: center;
+    position: relative;
+  }
+
+  .parallax h1 {
+    font-size: 3em;
+    text-shadow: 2px 2px 5px #000;
+  }
+
+  .parallax p{
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
