@@ -22,3 +22,4 @@ window.addEventListener('scroll', () => {
   // Apply filter to the background
   parallaxBackground.style.filter = `brightness(${opacity})`;
 });
+
