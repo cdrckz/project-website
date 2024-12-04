@@ -304,6 +304,79 @@ a:hover {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
+/*heartbeat style*/
+
+.logo2 {
+  color: #000000;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  border-bottom: solid #a3a3a3;
+  border-width: 1.5px;
+  padding-bottom: 20px;
+}
+
+.nav-links2 {
+  list-style: none;
+  display: flex;
+  gap: 60px;
+  text-align: center;
+  justify-content: center; 
+  align-items: center; 
+  padding-top: 10px;
+  margin-left: 300px;
+}
+
+.nav-links2 a {
+  color: #000;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease;
+  text-align: center;
+}
+
+.nav-links2 a:hover {
+  color: #f39c12;
+}
+
+.heartheader {
+  display: flex; 
+  align-items: center; 
+  justify-content: flexrt; 
+  padding: 5px;
+  border-bottom: solid #a3a3a3;
+  border-width: 1.5px;
+}
+
+.heartheader img{
+  justify-content: flex-start;
+}
+
+.logopic {
+  width: 50px; /
+  height: auto; 
+  margin-right: 15px; 
+}
+
+.photo {
+  display: block; /* Ensure it is treated as a block element */
+  max-width: 100%; /* Make the image responsive */
+  height: auto; /* Maintain aspect ratio */
+  aspect-ratio: 16 / 9; /* Set the aspect ratio to 16:9 */
+  margin: 0 auto; /* Center the image horizontally */
+  padding-top: 20px; /* Adjust padding if necessary */
+}
+
+.heartinfo{
+  margin-left: 300px;
+  margin-right: 300px;
+}
+.heartinfo h1{
+  margin-top: 100px;
+  justi
+}
+
 /* stories */
 #stories {
   padding: 50px 20px;
@@ -393,17 +466,82 @@ a:hover {
   display: none;
 }
 
-/*Hearbeat styles*/
- h1{
-  margin-top: 20px;
-  padding-bottom: 20px;
-  text-align: center;
-  font-size: 12;
-  border-bottom: solid #c5c5c5;
-  border-width: 1.5px;
- }
 
 /* footer */
+
+.contact-section {
+  padding: 60px 0;
+  text-align: center;
+  color: #fff;
+}
+
+.contact-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.contact-person {
+  margin-bottom: 40px;
+}
+
+.contact-info {
+  border: none;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-img img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.contact-info h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.social-media {
+  margin-top: 20px;
+}
+
+.social-media a {
+  font-size: 1.5rem;
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.social-media a:hover {
+  color: #007bff;
+}
+
+.line-separator {
+  width: 80%;
+  margin: 20px auto;
+  border-top: 2px solid #ccc;
+}
+
+/* Adding the line separator */
+.contact-section .row::before {
+  content: "";
+  display: block;
+  width: 100%;
+  border-bottom: 2px solid #ccc;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+
+
 footer {
   background-color: #333;
   color: #fff;

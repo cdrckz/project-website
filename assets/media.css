@@ -52,7 +52,11 @@
   }
 
   .content-section h2 {
-    font-size: 1em;
+    font-size: 2em;
+  }
+
+  .section-title {
+    font-size: 2em;
   }
 
   .content-section h3 {
@@ -113,5 +117,40 @@
   .otherinfo h3 {
     padding-left: 0;
     font-size: 1em;
+  }
+
+  .contact-info h3 {
+    font-size: 1.8rem;
+  }
+
+  .contact-info p {
+    font-size: 1rem;
+  }
+
+  .social-media a {
+    font-size: 1.5rem;
+  }
+
+  .line-separator {
+    width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  .contact-info h3 {
+    font-size: 1.5rem;
+  }
+
+  .contact-info p {
+    font-size: 0.9rem;
+  }
+
+  .social-media a {
+    font-size: 1.2rem;
+    margin: 0 5px;
+  }
+
+  .line-separator {
+    width: 80%;
   }
 }
