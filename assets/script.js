@@ -5,8 +5,18 @@ document.addEventListener("DOMContentLoaded", () => {
 const hamburger = document.querySelector(".hamburger");
 const navLinks = document.querySelector(".nav-links");
 
+// Toggle Hamburger Menu
 hamburger.addEventListener("click", () => {
+  hamburger.classList.toggle("active");
   navLinks.classList.toggle("active");
+});
+
+// Close Menu When a Link is Clicked
+document.querySelectorAll(".nav-links a").forEach((link) => {
+  link.addEventListener("click", () => {
+    hamburger.classList.remove("active");
+    navLinks.classList.remove("active");
+  });
 });
 
 //adjusting brightness when scroll
