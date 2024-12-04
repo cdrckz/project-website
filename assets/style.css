@@ -315,6 +315,7 @@ a:hover {
   border-bottom: solid #a3a3a3;
   border-width: 1.5px;
   padding-bottom: 20px;
+  background-color: ;
 }
 
 .nav-links2 {
@@ -354,28 +355,100 @@ a:hover {
 }
 
 .logopic {
-  width: 50px; /
+  width: 50px; 
   height: auto; 
   margin-right: 15px; 
 }
 
 .photo {
-  display: block; /* Ensure it is treated as a block element */
-  max-width: 100%; /* Make the image responsive */
-  height: auto; /* Maintain aspect ratio */
-  aspect-ratio: 16 / 9; /* Set the aspect ratio to 16:9 */
-  margin: 0 auto; /* Center the image horizontally */
-  padding-top: 20px; /* Adjust padding if necessary */
+  display: block; 
+  max-width: 100%; 
+  height: auto; 
+  aspect-ratio: 16 / 9; 
+  margin: 0 auto; 
+  padding-top: 20px; 
 }
 
 .heartinfo{
-  margin-left: 300px;
-  margin-right: 300px;
+  margin-left: 400px;
+  margin-right: 400px;
 }
+
 .heartinfo h1{
   margin-top: 100px;
-  justi
+  justify-content: right;
+  margin-bottom: 20px;
+  font-size: 320%;
+  font-family: Helvetica, sans-serif;
 }
+
+.heartinfo p{
+  font-size: 130%;
+  padding-bottom: 100px;
+  border-bottom: solid #a3a3a3;
+  border-width: 1.5px;
+}
+
+.iconic {
+  margin-left: 400px;
+  margin-right: 400px;
+  border-bottom: solid #a3a3a3;
+  border-width: 1.5px;
+  padding-bottom: 100px;
+}
+
+.iconic h1{
+  margin-top: 100px;
+  justify-content: right;
+  margin-bottom: 20px;
+  font-size: 320%;
+  font-family: Helvetica, sans-serif;
+}
+
+.iconic p{
+  font-size: 130%;
+}
+
+.afford {
+  margin-left: 400px;
+  margin-right: 400px;
+  border-bottom: solid #a3a3a3;
+  border-width: 1.5px;
+  padding-bottom: 100px;
+}
+
+.afford h1{
+  margin-top: 100px;
+  justify-content: right;
+  margin-bottom: 20px;
+  font-size: 320%;
+  font-family: Helvetica, sans-serif;
+}
+
+.afford p{
+  font-size: 130%;
+}
+
+.practicality {
+  margin-left: 400px;
+  margin-right: 400px;
+  border-bottom: solid #a3a3a3;
+  border-width: 1.5px;
+  padding-bottom: 100px;
+}
+
+.practicality h1{
+  margin-top: 100px;
+  justify-content: right;
+  margin-bottom: 20px;
+  font-size: 320%;
+  font-family: Helvetica, sans-serif;
+}
+
+.practicality p{
+  font-size: 130%;
+}
+
 
 /* stories */
 #stories {
@@ -539,12 +612,14 @@ a:hover {
   margin-bottom: 30px;
 }
 
-
-
-
 footer {
   background-color: #333;
   color: #fff;
   text-align: center;
   padding: 10px 0;
 }
+
+
+
+
+
