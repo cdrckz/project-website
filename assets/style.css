@@ -496,7 +496,7 @@ a:hover {
 .section-title {
   text-align: center;
   font-size: 3rem;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   color: #fff;
   font-family: "Georgia", serif;
 }
@@ -599,7 +599,7 @@ a:hover {
 
 
 .contact-section h2 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   margin-bottom: 30px;
 }
 
