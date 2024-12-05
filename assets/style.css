@@ -306,7 +306,7 @@ a {
 
 a:hover {
   text-decoration: underline;
-  color: #a3a3a3;
+  color: #f39c12;
 }
 
 .center-photo:hover,
@@ -391,11 +391,6 @@ a:hover {
   padding-top: 150px;
 }
 
-.heartinfo{
-  margin-left: 400px;
-  margin-right: 400px;
-}
-
 .quote {
   font-style: italic;
   font-size: 20px;
@@ -404,6 +399,11 @@ a:hover {
   border-left: 5px solid #f39c12;
   color: #555;
 } 
+
+.heartinfo{
+  margin-left: 400px;
+  margin-right: 400px;
+}
 
 .heartinfo h1{
   margin-top: 100px;
@@ -477,6 +477,44 @@ a:hover {
 .practicality p{
   font-size: 130%;
 }
+
+/*phaseout style*/
+.phaseinfo{
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+.phaseinfo h1{
+  margin-top: 100px;
+  justify-content: right;
+  margin-bottom: 20px;
+  font-size: 320%;
+  font-family: Helvetica, sans-serif;
+}
+
+.phaseinfo p{
+  font-size: 130%;
+  padding-bottom: 20px;
+}
+
+.phasephoto{
+  display: block; 
+  max-width: 100%; 
+  height: auto; 
+  aspect-ratio: 16 / 9; 
+  margin: 0 auto; 
+  padding-top: 100px;
+}
+
+.phasephoto2{
+  display: block; 
+  max-width: 100%; 
+  height: auto; 
+  aspect-ratio: 16 / 9; 
+  margin-top: 10px; 
+  padding-top: 1px;
+}
+
 
 /* stories */
 #stories {
