@@ -50,16 +50,4 @@ stories.forEach(story => {
   });
 });
 
-// Play/Pause functionality for the button
-toggleButton.addEventListener('click', () => {
-  if (audio.paused) {
-    audio.play();
-    toggleButton.textContent = 'Pause Music';
-  } else {
-    audio.pause();
-    toggleButton.textContent = 'Play Music';
-  }
-});
-
-
 
