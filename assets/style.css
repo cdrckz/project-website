@@ -498,7 +498,6 @@ a:hover {
 }
 
 .phasephoto{
-  display: block; 
   max-width: 100%; 
   height: auto; 
   aspect-ratio: 16 / 9; 
@@ -513,6 +512,29 @@ a:hover {
   aspect-ratio: 16 / 9; 
   margin-top: 10px; 
   padding-top: 1px;
+}
+.videos {
+  display: flex; /* Use flexbox for alignment */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  flex-direction: column; /* Stack items vertically */
+  height: 100vh; /* Full viewport height */
+  background-color: #fff; /* Background color */
+  margin: 0; /* Remove unnecessary side margins */
+}
+
+.videos iframe {
+  width: 80%; /* Responsive width for the video */
+  height: 400px; /* Set consistent height */
+  max-width: 1200px; /* Prevent excessive size on wide screens */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for better visuals */
+}
+
+.videos h1 {
+  font-size: 2em;
+  font-family: Helvetica, sans-serif;
+  margin: 20px 0; /* Reduce space above and below the title */
+  text-align: center;
 }
 
 
