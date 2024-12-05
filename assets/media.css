@@ -134,6 +134,50 @@
   .line-separator {
     width: 50%;
   }
+
+  .logo2 {
+    font-size: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  .nav-links2 {
+    flex-direction: column; 
+    gap: 20px; 
+    margin-left: 0; 
+  }
+
+  .nav-links2 a {
+    font-size: 12px;
+  }
+
+  .heartheader {
+    top: 50px; 
+    padding: 5px;
+  }
+
+  .logopic {
+    width: 40px; 
+    padding-right: 30%;
+  }
+
+  .photo {
+    padding-top: 80%;
+    margin: 0 10px; 
+  }
+
+  .heartinfo, .iconic, .afford, .practicality {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .heartinfo h1, .iconic h1, .afford h1, .practicality h1 {
+    font-size: 150%; 
+  }
+
+  .heartinfo p, .iconic p, .afford p, .practicality p {
+    font-size: 100%; 
+  }
 }
 
 @media (max-width: 767px) {

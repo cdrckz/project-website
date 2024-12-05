@@ -328,10 +328,10 @@ a:hover {
   padding-bottom: 10px;
   padding-top: 10px;
   background-color: #333333;
-  position: fixed; /* Make it fixed */
-  top: 0; /* Position it at the top */
-  width: 100%; /* Full width */
-  z-index: 1000; /* Ensure it appears above other content */
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+  z-index: 1000; 
 }
 
 .nav-links2 {
@@ -365,10 +365,10 @@ a:hover {
   border-bottom: solid #a3a3a3;
   border-width: 1.5px;
   background-color: #fffafafb;
-  position: fixed; /* Make it fixed */
-  top: 60px; /* Position it below the logo if needed */
-  width: 100%; /* Full width */
-  z-index: 999; /* Ensure it appears above other content */
+  position: fixed; 
+  top: 60px;
+  width: 100%; 
+  z-index: 999;
 }
 
 .heartheader img{
