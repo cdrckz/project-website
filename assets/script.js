@@ -60,3 +60,27 @@ toggleButton.addEventListener('click', () => {
     toggleButton.textContent = 'Play Music';
   }
 });
+
+
+const animatedElements = document.querySelectorAll(".animate-on-scroll");
+
+function isInViewport(element) {
+  const rect = element.getBoundingClientRect();
+  return (
+    rect.top >= 0 &&
+    rect.bottom <= (window.innerHeight || document.documentElement.clientHeight)
+  );
+}
+
+function handleScrollAnimation() {
+  animatedElements.forEach((el) => {
+    if (isInViewport(el)) {
+      el.classList.add("visible");
+    } else {
+      el.classList.remove("visible");
+    }
+  });
+}
+
+window.addEventListener("scroll", handleScrollAnimation);
+
