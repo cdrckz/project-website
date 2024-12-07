@@ -182,6 +182,49 @@
   .heartinfo p, .iconic p, .afford p, .practicality p {
     font-size: 100%; 
   }
+
+  .phasephoto, .vib {
+    padding-top: 80%;
+    margin: 0 10px; 
+  }
+
+  
+  .phaseinfo, .videos, .practicality2, .gallery {
+      margin-left: 20px;
+      margin-right: 20px;
+  }
+  
+  .phaseinfo h1, .practicality2 h1, .videos h1 {
+      font-size: 200%; 
+      text-align: center; 
+  }
+  
+  .phaseinfo p, .practicality2 p {
+      font-size: 100%; 
+  }
+  
+  .videos iframe {
+      width: 100%; 
+      height: 250px; 
+  }
+  
+  .gallery {
+      margin-top: 50px;
+      margin-bottom: 50px;
+      padding: 10px;
+  }
+  
+  .gallery h2 {
+      font-size: 1.5em; 
+  }
+  
+  .gallery-container {
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Smaller columns */
+  }
+  
+  .gallery-item img {
+      height: 150px;
+  }
 }
 
 @media (max-width: 767px) {
